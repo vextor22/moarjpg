@@ -8,6 +8,12 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <nav>
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Articles", articles_path %></li>
+      </ul>
+    </nav>
   </head>
 
   <body>
